@@ -1,3 +1,46 @@
 body {
-    background-color: bisque;
+    background-color: #F5F7FA;
+    font-family: 'Inter', sans-serif;
 }
+
+header{
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    height: 84px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 120px 30px 105px;
+}
+
+.link-group{
+    display: flex;
+    gap: 50px;
+
+    font-size: 14px;
+    color: #18191F;
+}
+
+.link-group a:hover {
+    font-weight: 600;
+
+}
+
+.auth-button {
+    display: flex;
+    gap: 14px;
+}
+
+.button-default {
+    background-color: #F5F7FA;
+    color: #4CAF4F;
+}
+
+.button-green {
+    background-color: #4CAF4F;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
