@@ -2,9 +2,8 @@ body {
     background-color: #F5F7FA;
     font-family: 'Inter', sans-serif;
 }
-
+/* Header */
 header{
-    border: 1px solid black;
     display: flex;
     width: 100%;
     height: 84px;
@@ -16,14 +15,14 @@ header{
 .link-group{
     display: flex;
     gap: 50px;
-
+    
     font-size: 14px;
     color: #18191F;
 }
 
 .link-group a:hover {
     font-weight: 600;
-
+    
 }
 
 .auth-button {
@@ -32,15 +31,63 @@ header{
 }
 
 .button-default {
+    cursor: pointer;
     background-color: #F5F7FA;
     color: #4CAF4F;
 }
 
 .button-green {
+    cursor: pointer;
     background-color: #4CAF4F;
     font-size: 14px;
     color: #FFFFFF;
     padding: 10px 20px;
     border-radius: 6px;
 }
+/* Main */
+main{
+    margin: 96px 144px;
+    display: flex;
+    justify-content: center;
+    gap: 104px;
+    /* border: 1px solid black; */
+}
 
+.text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 16px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 34px;
+}
+
+h1{
+    color: #4D4D4D;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+h1 > span{
+    color: #4CAF4F;
+}
+
+p{
+    font-size: 16px;
+    color: #717171;
+}
+
+.button-register{
+    width: 128px;
+    height: 52px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #4CAF4F;
+    border-radius: 4px;
+    padding: 14px 32px;
+}
