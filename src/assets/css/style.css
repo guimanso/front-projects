@@ -140,3 +140,24 @@ p{
 }
 
 /* Conteúdo da comunidade */
+.community-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group-card-community{
+    display: flex;
+    gap: 134px;
+}
+
+.card, .header-card, .body-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-card > img {
+    width: 65px;
+    height: 56px;
+}
