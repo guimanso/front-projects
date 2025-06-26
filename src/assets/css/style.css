@@ -47,10 +47,8 @@ header{
 }
 /* Main */
 main{
-    background-color: #F5F7FA;
-    padding: 96px 144px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     gap: 104px;
 }
 
@@ -61,7 +59,14 @@ main{
     gap: 16px;
 }
 
-.content{
+.initial-content{
+    padding: 96px 144px;
+    background-color: #F5F7FA;
+    display: flex;
+    gap: 34px;
+}
+
+.descripiton-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,3 +97,4 @@ p{
     border-radius: 4px;
     padding: 14px 32px;
 }
+
