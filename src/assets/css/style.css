@@ -206,9 +206,53 @@ p{
     height: 56px;
 }
 
-/* Card 
-p: 14px
-h3: bold 28px
-box-shadown: x-0 y-2 blur-4 color: #ABBED1 20%
-border-radius: 8px;
-*/
+/* Modile Content */
+.content-mobile-login{
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+    padding-right: 144px;
+    padding-left: 144px;
+    margin-top: 94px;
+    margin-bottom: 100px;
+}
+
+.description-mobile-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.text-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+
+    text-align: start;
+}
+
+.text-group > h2{
+    text-align: initial;
+    font-size: 28px;
+    color: #4D4D4D;
+    font-weight: bold;
+    padding-right: 30%;
+}
+
+.text-group > p{
+    font-size: 14px;
+    color: #717171;
+    padding-right: 60px;
+}
+
+.description-mobile-login > button{
+    width: 151px;
+    height: 52px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #4CAF4F;
+    border-radius: 4px;
+    padding: 14px 32px;
+}
