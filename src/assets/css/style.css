@@ -148,7 +148,10 @@ p{
 
 .group-card-community{
     display: flex;
-    gap: 134px;
+    justify-content: space-evenly;
+    margin-top: 16px;
+    padding: 10px 144px;
+    gap: 120px;
 }
 
 .text-community{
@@ -170,17 +173,21 @@ p{
 }
 
 .card{
-    
+    width: 299px;
+    height: 260px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px #abbed12a;
 }
 
 .body-card > p{
+    width: 100%;
     text-align: center;
     font-size: 14px;
     color: #717171;
 }
 
 .header-card > h3 {
-    
     text-align: center;
     font-size: 28px;
     color: #4D4D4D;
