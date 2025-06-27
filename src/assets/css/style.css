@@ -151,6 +151,43 @@ p{
     gap: 134px;
 }
 
+.text-community{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-left: 32%;
+    padding-right: 32%;
+    width: 100%;
+    text-align: center;
+    gap: 8px;
+}
+
+.text-community > h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+    text-align: center;
+}
+
+.card{
+    
+}
+
+.body-card > p{
+    text-align: center;
+    font-size: 14px;
+    color: #717171;
+}
+
+.header-card > h3 {
+    
+    text-align: center;
+    font-size: 28px;
+    color: #4D4D4D;
+    font-weight: bold;
+}
+
+
 .card, .header-card, .body-card{
     display: flex;
     flex-direction: column;
@@ -161,3 +198,10 @@ p{
     width: 65px;
     height: 56px;
 }
+
+/* Card 
+p: 14px
+h3: bold 28px
+box-shadown: x-0 y-2 blur-4 color: #ABBED1 20%
+border-radius: 8px;
+*/
