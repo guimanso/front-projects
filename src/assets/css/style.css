@@ -79,7 +79,7 @@ h1{
     font-weight: 600;
 }
 
-h1 > span{
+span{
     color: #4CAF4F;
 }
 
@@ -123,6 +123,7 @@ p{
 
 .text-clients > p {
     font-size: 16px;
+    line-height: 44px;
     color: #717171;
 }
 
@@ -167,6 +168,7 @@ p{
 
 .text-community > h2{
     font-size: 36px;
+    line-height: 44px;
     font-weight: 600;
     color: #4D4D4D;
     text-align: center;
@@ -189,6 +191,7 @@ p{
 
 .header-card > h3 {
     text-align: center;
+    line-height: 44px;
     font-size: 28px;
     color: #4D4D4D;
     font-weight: bold;
@@ -236,6 +239,7 @@ p{
 .text-group > h2{
     text-align: initial;
     font-size: 28px;
+    line-height: 44px;
     color: #4D4D4D;
     font-weight: bold;
     padding-right: 30%;
@@ -255,4 +259,53 @@ p{
     background-color: #4CAF4F;
     border-radius: 4px;
     padding: 14px 32px;
+}
+
+/* Conteúdo das Estátisticas */
+
+.content-statistics-group{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+
+    padding: 64px 144px;
+    background-color: #F5F7FA;
+}
+
+.text-group-statistics{
+    display: flex;
+    text-align: start;
+
+    flex-direction: column;
+    gap: 8px;
+}
+
+h2 > span {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-group-statistics > h2{
+    line-height: 44px;
+    font-size: 28px;
+    color: #4D4D4D;
+    font-weight: bold;
+}
+
+.group-cards-statistics{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    width: 510px;
+    height: 160px;
+}
+
+.card-statistics {
+    display: flex;
+    gap: 10px;
+}
+
+.card-statistics > img{
+    width: 48px;
+    height: 48px;
 }
