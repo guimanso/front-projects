@@ -297,7 +297,6 @@ h2 > span {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 40px;
     column-gap: 30px;
-    
 }
 
 .card-statistics {
@@ -310,4 +309,44 @@ h2 > span {
     width: 48px;
     height: 48px;
     margin-right: 5px;
+}
+
+/* Conteúdo Garota com Celular */
+
+.content-password{
+    display: flex;
+    margin: 48px 144px;
+}
+
+.text-password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-password > h2{
+    text-align: initial;
+    font-size: 28px;
+    margin-top: 16px;
+    line-height: 44px;
+    color: #4D4D4D;
+    font-weight: bold;
+    padding-right: 34%;
+}
+
+.text-password > p{
+    font-size: 14px;
+    color: #717171;
+}
+
+
+.text-password > button{
+    width: 151px;
+    height: 52px;
+    margin-top: 32px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #4CAF4F;
+    border-radius: 4px;
+    padding: 14px 32px;
 }
