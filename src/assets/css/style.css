@@ -293,11 +293,11 @@ h2 > span {
 }
 
 .group-cards-statistics{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 36px;
-    width: 510px;
-    height: 160px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+    column-gap: 30px;
+    
 }
 
 .card-statistics {
@@ -306,6 +306,8 @@ h2 > span {
 }
 
 .card-statistics > img{
+    align-items: center;
     width: 48px;
     height: 48px;
+    margin-right: 5px;
 }
